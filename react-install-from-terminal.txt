@@ -1,0 +1,44 @@
+What is Reactjs/React.js ?
+Reactjs :- Reactjs is a javascript library not a framework. It is used for building user interface. 
+
+/* Install React from terminal Points */
+
+1. npm install -g create-react-app
+2. create-react-app --version
+3. mkdir create your project directory
+4. inside this directory write this command create-react-app <projectname> this create your project that's it.
+5. cd <projectname> and write npm start command.
+
+/* File and Folder Structure */
+
+1. Node Modules :- In this folder all the dependencies of project are stored.
+2. Public :- it stores basically project/application related information For example 
+   1. favicon 
+   2.  html file of project/application 
+   3. manifest.json :- Project/application meta information in JSON formate
+   4. Robots file
+
+3. src folder :- it contains some important files and this is actual area where you write your code
+   1. App.css :- it just css file
+   2. App.js :- it the file where you write your code and you can make your js file like this as well
+   3. App.test.js :- In this file you can write unit-test-cases by run this cases you can detect bugs from your application thats actual hepls to Q.A 
+   4. Index.css :- it is also a css file
+   5. Index.js :- it the entry point or actual file which loads first when your project is run
+   6. reportWebVitals.js :- it gives the performance report of your project
+   7. setupTest.js :- it is the setup of your unit-test-cases
+   8. Package-lock.json :- it takes the inpformation about node modules of the project and their history and it also cantain the information about package.json file.
+   9.package.json :- it contains the information about the project for example :- name of project, it's version and react version which you are using.
+
+   Note:- in package.json file command also deifne so can create your custom command by change the existing one for example :- change this "start": "react-scripts start" to "arun": "react-scripts start", so here we changed the existing command 'start' to 'arun'. Now our application run by 'npm run arun command' not by 'npm start'. Because we change the command name.
+
+/* About Component */
+
+There are many components but basically we can discuss or explain some of them
+1. Functional Component
+2. Class Component
+3. HOC(High Order Component)
+4. Pure Component
+5. Controlled Component
+6. Uncontrolled Component
+
+
